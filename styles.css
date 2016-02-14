@@ -1,0 +1,219 @@
+/*
+	Designed by Dapeng Li
+	10/20/2013
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #12163E;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #12163E;
+}
+
+body {
+	
+	background: #ffe4c4 url(images/canyonlands.jpg);
+	background-repeat:repeat-y;
+	background-position:center top;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+#content
+{
+	width: 800px;
+	height: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main
+{
+	background: #ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#header {
+	height: 80px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#menu
+{
+	
+	width: 800px;
+	height:60px;
+	padding-left: 10px;
+	
+	background: url(images/menu.gif) no-repeat;
+	background-position:left top;
+}
+
+#menu ul {
+	list-style: none;
+	
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 85px;
+	height: 31px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 22px;
+
+}
+
+#menu a:hover {
+	width: 85px;
+    height: 31px;
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#img img
+  {
+	  margin:5px;
+	  padding: 5px;
+	  height:auto;
+	  width:auto;
+	  float:left;
+	  text-align:center;
+	  }
+
+#left H3
+{
+width: 200px;
+height: 39px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 15px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) no-repeat
+}
+
+
+
+#left ul {
+	border: 0px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+#left li  {
+	float: left;
+	padding: 10px 10px;
+    background: url(images/small.gif) no-repeat left;
+}
+
+
+#left H4
+{
+font-size: 10px;
+}
+
+#left a {
+	color: #12163E;
+	font-size: 11px;
+}
+#left a:visited {
+	color: #037931;
+	font-size: 11px;
+}
+
+#left p
+{
+padding: 10px;
+}
+
+
+
+#right
+{
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #037931;
+}
+
+#right a
+{
+color: #12163E;
+text-decoration: none;
+}
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #12163E;
+}
+.date {
+	text-align: right;
+	color: #12163E;
+	font-size: 11px;
+}
+
+.date a {
+	color: #12163E;
+}
+
+
+
+#footer {
+	clear: both;
+	height: 47px;
+	clear: both;
+	padding-top: 20px;
+	background: url(images/footer.gif) repeat-x bottom;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #12163E;
+}
+
+#footer a {
+	color: #037931;
+}
